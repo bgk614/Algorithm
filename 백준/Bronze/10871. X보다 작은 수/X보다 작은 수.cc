@@ -1,13 +1,13 @@
 #include <iostream>
+#include <string>
 using namespace std;
 int main(){
-        int n, x;
+        int n, x, a;
         cin>> n >> x;
-        int arr[n]; 
         for(int i=0; i<n; i++){
-            cin>> arr[i];
-            if(arr[i] < x){
-                cout<< arr[i] << " ";
+            cin>> a;
+            if(a < x){
+                cout<< a << " ";
             }
         }
 }
